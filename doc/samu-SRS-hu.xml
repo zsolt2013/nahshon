@@ -950,7 +950,35 @@
                     egy még a Google-nál is jobb kereső megírására, nos erről kezdtünk most éppen el beszélgetni :)
                 </para>                
             </section>
-        </chapter>    
+        </chapter> 
+         <chapter>
+    <info>
+            <title>Saját Vízió</title>
+    </info>
+    <section>
+      <title>Lassabb,olvashatóbb válaszok Amminadabtól </title>
+        <subtitle> Lépések és funkciók </subtitle>
+     <para>
+      Kezdésként a felhasználói felülettel dolgoztunk; vonalakkal, színekkel, hátterekkel és margókkal. 
+      </para> 
+      <para>
+      Majd csináltunk helyet a Samu lassú válaszait tartalmazó ablaknak. 
+      </para>
+      <para>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="img/main.jpg"/>
+          </imageobject>
+          <textobject>
+            <phrase></phrase>
+          </textobject>
+        </mediaobject>
+      </para>   
+        <para>
+       Célunk Samu bővítése volt. Samu válaszai túl gyorsak voltak ezért le lassítottuk,  így könnyen, olvashatóan tudjuk követni működését. Ennek meg valósításához csináltunk egy file buffer rendszert. A válaszokat txt fájlokba írtuk, és ezeket lassítva vissza olvastuk az új ablakba. 
+      </para>      
+    </section>
+  </chapter>
     </part>  
     <part xml:id="samu-SRS-hu.part2">
         <title>Tervezési dokumentáció</title>
