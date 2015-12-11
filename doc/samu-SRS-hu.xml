@@ -33,6 +33,12 @@
                 </otheraddr>
             </address>
         </author>
+                <author>
+            <personname>
+                <surname>Akai</surname>
+                <firstname>Zsolt</firstname>        
+            </personname>    
+        </author>
         <edition>SAMU SRS, v. Nahshon.0.0.5</edition>
         <pubdate>2015</pubdate>
         <copyright>
@@ -967,7 +973,7 @@
       <para>
         <mediaobject>
           <imageobject>
-            <imagedata fileref="img/main.jpg"/>
+            <imagedata fileref="img/main.jpg"  scale="60"/>
           </imageobject>
           <textobject>
             <phrase></phrase>
